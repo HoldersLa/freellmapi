@@ -18,5 +18,21 @@
         }
       }
     }
+  },
+  "instructions": [
+    "AGENTS.md"
+  ],
+  "mcp": {
+    "obsidian": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@bitbonsai/mcpvault@0.17.1",
+        "{env:OBSIDIAN_VAULT_PATH}",
+        "--read-only"
+      ],
+      "enabled": true
+    }
   }
 }
